@@ -1,3 +1,2 @@
-const a= require('./central')
-
+const a=require('./central')
 console.log(a);
