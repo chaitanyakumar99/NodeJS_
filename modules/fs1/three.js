@@ -5,5 +5,5 @@
  console.log(data);
 
  fs.writeFileSync('name.txt',data)
- console.log("Data written successfully");
+ console.log("Data written as successfully");
 
