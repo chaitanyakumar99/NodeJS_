@@ -8,15 +8,17 @@ let app = express();
 
 //read the form data/post from the body data
 
-app.use(express.json())
-
+app.use(express.json())/
 //load env variable values 
-dotevn.config({ 'path': "./config/dev.env" })
+// dotevn.config({ 'path': "./config/dev.env" })
+
+dotevn.config({path: './config/dev.env'})
+
 let port = process.env.PORT;
-let host = process.env.HOST;
+let host = process.env.HOSTNAME;
 
 //enable HTTP Request Logger - middleware
-app.use(morgan('tiny'))
+app.use(morgan('common'))
 
 //create app - root request
 //URL:  http://127.0.0.1:8082/
