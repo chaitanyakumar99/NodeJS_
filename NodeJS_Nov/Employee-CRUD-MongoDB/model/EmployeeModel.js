@@ -9,5 +9,5 @@ let empSchema = mongoose.Schema({
 })
 
 let EmpModel = mongoose.model("empCrud", empSchema);
-2
+
 export default EmpModel;
