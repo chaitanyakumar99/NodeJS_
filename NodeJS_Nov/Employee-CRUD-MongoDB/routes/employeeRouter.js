@@ -109,7 +109,5 @@ router.delete("/delete/:emp_Id", async (req, resp) => {
     }
 })
 
-
-
 export default router;
 
