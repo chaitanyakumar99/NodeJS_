@@ -1,6 +1,5 @@
 import mongoose from 'mongoose'
 
-
 let userShema = mongoose.Schema({
     user_Name: { type: String, require: true },
     email: { type: String, require: true },
