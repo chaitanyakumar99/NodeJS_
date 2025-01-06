@@ -7,6 +7,7 @@ import cors from 'cors'          //cors is used for security purpose
 import empRouter from './routes/employeeRouter.js'
 
 //create express app
+
 let app = express();
 //configure and load application setting
 dotenv.config({ 'path': './config/dev.env' })
