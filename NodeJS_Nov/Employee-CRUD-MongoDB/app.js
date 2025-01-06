@@ -1,9 +1,9 @@
 import express from 'express'
 import dotenv from 'dotenv'
-import mongoose from 'mongoose'
-import morgan from 'morgan'
+import mongoose from 'mongoose'  //for creating the models and providing the data base,mongodb connection
+import morgan from 'morgan'      //display the api data in terminal
 import chalk from 'chalk'
-import cors from 'cors'
+import cors from 'cors'          //cors is used for security purpose
 import empRouter from './routes/employeeRouter.js'
 
 //create express app
