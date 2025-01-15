@@ -14,6 +14,7 @@ router.post("/create", (req, resp) => {
     let emp = req.body;
 });
 
+
 // Usage : fetch all employees/users/products/orders
 // API URL: http://127.0.0.1:8080/api/read
 // Method Type: GET
@@ -24,6 +25,7 @@ router.get("/read", async (req, resp) => {
     let employees = await getEmployees()
     return resp.json(employees)
 })
+
 
 // Usage : update employee/user/product/order
 // API URL: http://127.0.0.1:8080/api/update/102
@@ -47,6 +49,7 @@ router.get("/update", async (req, resp) => {
 // Access Type:Public
 // Note: we need to verify employee exist or not. 
 // If employee exit we are going to update emplgoyee
+
 
 router.delete("/del/:id", async (req, resp) => {
     let eid = req.params.id
