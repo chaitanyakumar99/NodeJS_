@@ -9,6 +9,7 @@ let app = express();
 //read the form data/post from the body data
 
 app.use(express.json())/
+
 //load env variable values 
 // dotevn.config({ 'path': "./config/dev.env" })
 
