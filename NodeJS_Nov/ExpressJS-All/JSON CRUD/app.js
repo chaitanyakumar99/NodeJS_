@@ -30,6 +30,7 @@ app.get("/", (req, resp) => {
 //forward all the api - related request to apiRouter
 app.use("/api", apiRouter)
 
+
 app.listen(port, host, (err) => {
     if (err) throw err
     console.log(chalk.bgGreen(`Server is Running on http://${host}:${port}/`))
