@@ -64,6 +64,7 @@ router.delete("/del/:id", async (req, resp) => {
 })
 
 
+
 let getEmployees = () => {
     let emp_Data = fs.readFileSync('data.json', 'utf-8')
     return JSON.parse(emp_Data)
