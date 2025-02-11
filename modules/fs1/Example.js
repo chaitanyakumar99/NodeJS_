@@ -1,5 +1,4 @@
 // const fs =require('fs')
-
 // //Synchronous
 // let data =fs.readFileSync('data.txt','utf-8')
 // console.log(data);
